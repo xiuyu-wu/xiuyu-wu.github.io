@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4030c4">
+  <meta name="description" content="Xiuyu Wu is a Ph.D. student in Computer Technology at Nankai University, researching visual generative models, remote sensing image analysis, and object detection.">
+  <title>Xiuyu Wu | Academic Homepage</title>
+  <link rel="icon" href="./favicon.svg?v=xy-1" type="image/svg+xml">
+  <script>
+    try {
+      if (localStorage.getItem('homepage-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="./style.css?v=contact-links-1">
+  <script type="module" src="./script.js?v=toys-wechat-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to main content</a>
+  <aside class="sidebar" aria-label="Site sidebar">
+    <div class="sidebar-top">
+      <a class="sidebar-identity" href="#about">Xiuyu Wu<span>Academic homepage</span></a>
+      <button class="sidebar-toggle" type="button" aria-label="Collapse sidebar" aria-expanded="true" aria-controls="sidebar-navigation" title="Collapse sidebar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/><path class="toggle-chevron" d="m16 9-3 3 3 3"/></svg>
+      </button>
+    </div>
+    <p class="navigation-caption">ON THIS PAGE</p>
+    <nav id="sidebar-navigation" class="navigation" aria-label="Page navigation">
+      <a href="#about" aria-label="About" title="About" class="active" aria-current="location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg><span class="nav-label">About</span></a>
+      <!--
+      <a href="#news" aria-label="News" title="News"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8M8 12h8M8 16h4"/></svg><span class="nav-label">News</span></a>
+      -->
+      <!--
+      <a href="#experience" aria-label="Experience" title="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12a24 24 0 0 0 18 0M12 11v4"/></svg><span class="nav-label">Experience</span></a>
+      -->
+      <a href="#education" aria-label="Education" title="Education"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5ZM6 11v6c4 3 8 3 12 0v-6M22 9v8"/></svg><span class="nav-label">Education</span></a>
+      <!--
+      <a href="#publications" aria-label="Publications" title="Publications"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v16M12 5C9 3 5 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-3-1-7-1-10 1Z"/></svg><span class="nav-label">Publications</span></a>
+      -->
+      <!--
+      <a href="#preprints" aria-label="Preprints" title="Preprints"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H5v18h14V8l-5-5ZM14 3v5h5M8 12h8M8 16h6"/></svg><span class="nav-label">Preprints</span></a>
+      -->
+      <!--
+      <a href="#services" aria-label="Services" title="Services"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6M18 14a5 5 0 0 1 3 4v3"/></svg><span class="nav-label">Services</span></a>
+      -->
+      <!--
+      <a href="#honors" aria-label="Honors" title="Honors"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9"/></svg><span class="nav-label">Honors</span></a>
+      -->
+      <a href="#toys" aria-label="Toys" title="Toys"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M7 12h3m-1.5-1.5v3M16 12h.01M18 15h.01"/></svg><span class="nav-label">Toys</span></a>
+    </nav>
+    <div class="sidebar-footer">Research &amp; projects</div>
+  </aside>
+  <button class="sidebar-backdrop" type="button" aria-label="Close navigation" tabindex="-1" hidden></button>
+  <button class="cosmic-sun" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+    <svg viewBox="0 0 200 200" fill="none" aria-hidden="true">
+      <circle class="sun-disc" cx="100" cy="100" r="53" fill="#9380dd"/>
+      <g class="moon-disc">
+        <circle cx="100" cy="100" r="53" fill="#c9bff1"/>
+        <!-- Soft lunar plains and gently uneven crater rims. -->
+        <path d="M56 100C58 93 62 87 69 86S78 91 78 97 72 106 65 107 55 105 56 100Z M83 143C86 139 91 137 96 139S105 143 108 148C105 151 99 153 94 151S83 148 83 143Z" fill="#b8addf" opacity=".38"/>
+        <!-- The darker upper inner walls sit above lighter, recessed floors. -->
+        <g transform="translate(77 116) scale(.48 .68) translate(-77 -116)" opacity=".75">
+          <path d="M65 112C67 109 71 108 75 107.5S82 108 86 110C89 112 91 115 89.5 118.5S84 124 79 124.5 70 123 67 120.5 63 115 65 112Z" fill="#b6a8db"/>
+          <path d="M65 112C67 109 71 108 75 107.5S82 108 86 110C89 112 91 115 89.5 118.5C88 115 84 112 79 111.5S71 113 68.5 115.5 66.5 119 67 120.5C64 118 63.5 114.5 65 112Z" fill="#9382ba" opacity=".68"/>
+          <path d="M71 116C73 114 76 113 79 113.5S84 115 85.5 117.5 83 121.5 79 122 72 121 70.5 119.5 70 117 71 116Z" fill="#c3b7e8"/>
+          <path d="M65.5 111C68 108 72 106.5 76 106.5M86 122C83 124 80 125 76 125" stroke="#ddd3f4" stroke-width=".65" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(95 137) scale(.72 1.08) translate(-95 -137)">
+          <path d="M88 134C91 131.5 96 132 99 133S104 135.5 103.5 138 99 142 95 142.5 88 141 87 139 86.5 135.5 88 134Z" fill="#b5a6d8"/>
+          <path d="M88 134C91 131.5 96 132 99 133S104 135.5 103.5 138C101 136.5 98 135 94 135S88 136.5 88.5 140C86 138.5 86.5 135.5 88 134Z" fill="#9583bb" opacity=".6"/>
+          <path d="M91 138C93 136.5 97 136.5 100 138S98 141 95 141 89 140 91 138Z" fill="#c5b9e9"/>
+          <path d="M89 133C91 131.5 95 131 98 132M101 141C99 142.5 97 143 95 143" stroke="#ddd3f4" stroke-width=".55" stroke-linecap="round"/>
+        </g>
+        <path d="M54.5 109C54.5 106 57 103.5 59.5 104.5S63 108 62 110.5 58.5 114.5 56.5 113 54.5 111 54.5 109Z" fill="#b3a5d6"/>
+        <path d="M54.5 109C54.5 106 57 103.5 59.5 104.5S62.5 106.5 62.5 108C60.5 105 58 106 56.5 109S57 112 58 113.5C55.5 113.5 54.5 111 54.5 109Z" fill="#9583bb" opacity=".55"/>
+      </g>
+      <circle class="celestial-ring" cx="100" cy="100" r="60" stroke="#c4b9eb" stroke-width=".8"/>
+    </svg>
+  </button>
+  <main class="page">
+    <!-- <p class="sample-notice">Academic homepage preview<span>Some sections below still contain sample content.</span></p> -->
+    <section class="profile" id="about" aria-labelledby="name">
+      <div class="profile-text">
+        <h1 id="name">Xiuyu Wu</h1>
+        <p class="affiliation">Ph.D Student</p>
+        <p class="institution">Nankai University</p>
+        <div class="biography">
+          <p>I am a Ph.D. student in Computer Technology at Nankai University, advised by <a href="https://mmcheng.net/cmm/" target="_blank" rel="noopener noreferrer">Ming-Ming Cheng</a> and <a href="https://grokcv.ai/author/yimian-dai/" target="_blank" rel="noopener noreferrer">Yimian Dai</a>. Previously, I received my master's degree from Xidian University and my bachelor's degree from Civil Aviation University of China.</p>
+          <p>My research interests include <strong>visual generative models</strong>, <strong>remote sensing image analysis</strong>, and <strong>object detection</strong>. My current focus is on generative modeling for downstream tasks.</p>
+        </div>
+        <div class="profile-links" aria-label="Contact and research profiles">
+          <div class="profile-email"><a href="mailto:xiuyuwu.ai@gmail.com">Email</a> <span class="email-address">xiuyuwu [dot] ai [at] gmail [dot] com</span></div>
+          <a href="https://scholar.google.com/citations?user=iRmKGlEAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://github.com/Nu1sance?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <button class="wechat-trigger" type="button" aria-haspopup="dialog" aria-controls="wechat-dialog">WeChat</button>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img class="portrait-image" src="./imgs/xiuyu-wu-avatar.png" alt="Illustrated portrait of Xiuyu Wu" width="1254" height="1254" fetchpriority="high">
+      </figure>
+    </section>
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="news" aria-labelledby="news-title">
+      <h2 id="news-title">News</h2>
+      <ul class="dated-list news-list">
+        <li><span class="date">YYYY.MM</span><p>[Paper Title] was accepted to [Conference / Journal].</p></li>
+        <li><span class="date">YYYY.MM</span><p>Joined [Lab / Research Institution] to work on [Research Area].</p></li>
+        <li><span class="date">YYYY.MM</span><p>Released the paper, code, or project page for [Project Name].</p></li>
+      </ul>
+    </section>
+    -->
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="timeline-entry"><span class="date">YYYY.MM – Present</span><div><h3>[Research Institution / Lab]</h3><p>[Position / Research Intern]</p><p class="secondary">Mentor: [Name] · Research focus: [Topic]</p></div></div>
+      <div class="timeline-entry"><span class="date">YYYY.MM – YYYY.MM</span><div><h3>[Research Institution / Lab]</h3><p>[Position / Research Assistant]</p><p class="secondary">Mentor: [Name] · Research focus: [Topic]</p></div></div>
+    </section>
+    -->
+
+    <section class="content-section" id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="timeline-entry"><span class="date">2026 – Present</span><div><h3>Nankai University</h3><p>Ph.D. in Computer Technology</p><p class="secondary">Advisors: <a href="https://mmcheng.net/cmm/" target="_blank" rel="noopener noreferrer">Ming-Ming Cheng</a> and <a href="https://grokcv.ai/author/yimian-dai/" target="_blank" rel="noopener noreferrer">Yimian Dai</a></p></div></div>
+      <div class="timeline-entry"><span class="date">2023 – 2026</span><div><h3>Xidian University</h3><p>Master's degree</p><p class="secondary">Advisor: <a href="https://orcid.org/0000-0002-7947-8749" target="_blank" rel="noopener noreferrer">Xiubin Zhu</a></p></div></div>
+      <div class="timeline-entry"><span class="date">2018 – 2022</span><div><h3>Civil Aviation University of China</h3><p>Bachelor's degree</p></div></div>
+    </section>
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications</h2>
+      <p class="section-note">Selected publications. My name is in bold; * denotes equal contribution. Entries below are layout examples.</p>
+      <article class="publication">
+        <div class="paper-figure" role="img" aria-label="Figure placeholder for the first publication"><span>Paper figure</span><small>METHOD / RESULTS</small></div>
+        <div class="paper-body"><h3>[Paper Title: Research Question and Method]</h3><p class="authors"><strong>Your Name</strong>*, Coauthor A*, Coauthor B, Coauthor C</p><p class="venue">[Conference / Journal] <span>YYYY</span></p><p class="paper-description">A brief summary of the research problem, proposed method, and main contributions.</p><p class="paper-resources" aria-label="Publication resource placeholders"><span>Paper</span><span>Code</span><span>Project</span><small>Links to be added</small></p></div>
+      </article>
+      <article class="publication">
+        <div class="paper-figure" role="img" aria-label="Figure placeholder for the second publication"><span>Paper figure</span><small>METHOD / RESULTS</small></div>
+        <div class="paper-body"><h3>[Paper Title: Research Question and Method]</h3><p class="authors">Coauthor A, <strong>Your Name</strong>, Coauthor B, Coauthor C</p><p class="venue">[Conference / Journal] <span>YYYY</span></p><p class="paper-description">A short overview of the study and its significance, highlighting the key findings.</p><p class="paper-resources" aria-label="Publication resource placeholders"><span>Paper</span><span>Code</span><small>Links to be added</small></p></div>
+      </article>
+      <article class="publication">
+        <div class="paper-figure" role="img" aria-label="Figure placeholder for the third publication"><span>Paper figure</span><small>METHOD / RESULTS</small></div>
+        <div class="paper-body"><h3>[Paper Title: Research Question and Method]</h3><p class="authors"><strong>Your Name</strong>, Coauthor A, Coauthor B</p><p class="venue">[Conference / Journal] <span>YYYY</span></p><p class="paper-description">A concise description of the method and results, accompanied by links to the paper and code.</p><p class="paper-resources" aria-label="Publication resource placeholders"><span>Paper</span><span>Project</span><small>Links to be added</small></p></div>
+      </article>
+    </section>
+    -->
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="preprints" aria-labelledby="preprints-title">
+      <h2 id="preprints-title">Preprints</h2>
+      <article class="publication publication-text-only"><div class="paper-body"><h3>[Preprint Title]</h3><p class="authors"><strong>Your Name</strong>, Coauthor A, Coauthor B</p><p class="venue">Preprint <span>YYYY</span></p><p class="paper-description">A brief introduction to the research question and main contributions of this work.</p><p class="paper-resources" aria-label="Preprint resource placeholders"><span>arXiv</span><span>Code</span><small>Links to be added</small></p></div></article>
+    </section>
+    -->
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Academic Services</h2>
+      <ul class="plain-list"><li><strong>Conference Reviewer:</strong> [Conference Names and Years]</li><li><strong>Journal Reviewer:</strong> [Journal Names]</li></ul>
+    </section>
+    -->
+
+    <!-- Temporarily hidden; retained for future updates.
+    <section class="content-section" id="honors" aria-labelledby="honors-title">
+      <h2 id="honors-title">Honors & Awards</h2>
+      <ul class="dated-list"><li><span class="date">YYYY</span><p>[Award / Scholarship], [Awarding Institution]</p></li><li><span class="date">YYYY</span><p>[Award / Honor], [Awarding Institution]</p></li></ul>
+    </section>
+    -->
+    <section class="content-section" id="toys" aria-labelledby="toys-title">
+      <h2 id="toys-title">Toys</h2>
+      <p class="section-note">Small tools I build for research and everyday life.</p>
+      <ul class="toy-list">
+        <li>
+          <h3><a href="https://daily-paper-mu.vercel.app/" target="_blank" rel="noopener noreferrer">Daily Paper</a></h3>
+          <p>A daily arXiv research briefing powered by LLMs, with papers tailored to your interests, in-depth analysis, and collections for saved reads.</p>
+        </li>
+        <li>
+          <h3><a href="https://github.com/Nu1sance/DailyDisk" target="_blank" rel="noopener noreferrer">DailyDisk</a></h3>
+          <p>A macOS utility that tracks daily disk usage changes, showing which files and folders grew and where space was freed.</p>
+        </li>
+        <li>
+          <h3><a href="https://github.com/Nu1sance/Eyes-Caller" target="_blank" rel="noopener noreferrer">Eyes Caller</a></h3>
+          <p>A gentle macOS break reminder built around the 20–20–20 rule, with a quiet garden scene that invites you to look away from the screen.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <dialog class="wechat-dialog" id="wechat-dialog" aria-labelledby="wechat-title">
+    <div class="wechat-dialog-heading">
+      <h2 id="wechat-title">Connect on WeChat</h2>
+      <button class="wechat-close" type="button" aria-label="Close WeChat QR code" autofocus>×</button>
+    </div>
+    <img src="./imgs/wechat.jpeg" alt="Xiuyu Wu’s WeChat QR code. Scan with WeChat to add me." width="888" height="1191" loading="lazy">
+  </dialog>
+    <figure class="alien-landscape" data-visible="false" aria-label="A day on a small alien planet, following Beijing time">
+      <svg class="planet-scene" viewBox="0 0 1000 300" role="img" aria-labelledby="planet-title planet-description">
+        <title id="planet-title">A little world, one day at a time</title>
+        <desc id="planet-description">A small astronaut with a round helmet walks across the curved surface of a pale violet planet, dotted with a few rocks and shallow craters.</desc>
+        <defs>
+          <clipPath id="planet-boundary"><ellipse cx="500" cy="1430" rx="1800" ry="1250"/></clipPath>
+          <!-- The same soft rim, shaded inner wall, and recessed floor as the moon. -->
+          <g id="planet-crater-shape" transform="translate(-77 -116)">
+            <path d="M65 112C67 109 71 108 75 107.5S82 108 86 110C89 112 91 115 89.5 118.5S84 124 79 124.5 70 123 67 120.5 63 115 65 112Z" fill="var(--planet-crater, #dbd3ec)"/>
+            <path d="M65 112C67 109 71 108 75 107.5S82 108 86 110C89 112 91 115 89.5 118.5C88 115 84 112 79 111.5S71 113 68.5 115.5 66.5 119 67 120.5C64 118 63.5 114.5 65 112Z" fill="var(--planet-wall, #b8a8ce)" opacity=".68"/>
+            <path d="M71 116C73 114 76 113 79 113.5S84 115 85.5 117.5 83 121.5 79 122 72 121 70.5 119.5 70 117 71 116Z" fill="var(--planet-floor, #e7dff3)"/>
+            <path d="M65.5 111C68 108 72 106.5 76 106.5M86 122C83 124 80 125 76 125" fill="none" stroke="var(--planet-highlight, #f7f5fb)" stroke-width=".65" stroke-linecap="round"/>
+          </g>
+        </defs>
+        <ellipse cx="500" cy="1430" rx="1800" ry="1250" fill="var(--planet-base, #f0edf8)" stroke="var(--planet-edge, #c6bbdf)" stroke-width="1.3"/>
+        <g clip-path="url(#planet-boundary)">
+          <path d="M53 259C88 235 124 244 151 260S201 283 216 300H45C33 285 36 270 53 259Z M694 274C723 256 753 261 780 276S834 289 850 310H685C675 296 680 282 694 274Z" fill="var(--planet-dune, #e8e2f2)" opacity=".55"/>
+          <g opacity=".78">
+            <use href="#planet-crater-shape" transform="translate(210 239) scale(1.7 2.25)"/>
+            <use href="#planet-crater-shape" transform="translate(650 221) scale(1.9 2.5)"/>
+            <use href="#planet-crater-shape" transform="translate(850 300) scale(2.5 3.4)"/>
+            <use href="#planet-crater-shape" transform="translate(430 275) scale(.8 1.1)"/>
+          </g>
+          <g fill="var(--planet-rock, #d1c6e1)" stroke="var(--planet-rock-edge, #b6a7cb)" stroke-width=".8" stroke-linejoin="round">
+            <path d="M92 269Q95 258 101 258T114 270Q104 273 92 269Z"/>
+            <path d="M765 225Q768 217 773 217T783 226Q773 228 765 225Z"/>
+            <path d="M532 242Q534 236 539 236T545 242Q539 244 532 242Z"/>
+          </g>
+          <g stroke="var(--planet-detail, #c8bcd9)" stroke-width="1" stroke-linecap="round"><path d="m305 209 9-2m4 1 4-1M577 219l7 1M906 248l9 2"/></g>
+        </g>
+        <g class="daily-world" aria-hidden="true"></g>
+        <g class="astronaut-walker" data-action="walk">
+          <g class="astronaut-figure">
+            <ellipse cx="0" cy="3" rx="16" ry="3" fill="#857398" opacity=".15"/>
+            <g class="astronaut-facing">
+              <g class="astronaut-body">
+                <g class="astronaut-upper-body">
+                  <rect x="-19" y="-42" width="11" height="24" rx="4" fill="#c9bcdf" stroke="#84719d" stroke-width="1.4"/>
+                  <path d="M-16-36v10" stroke="#a493be" stroke-width="2" stroke-linecap="round"/>
+                  <g class="astronaut-arm-back"><path d="M0-37q8 8 5 17" fill="none" stroke="#a497b9" stroke-width="5" stroke-linecap="round"/><circle cx="5" cy="-19" r="3" fill="#d6cce5" stroke="#84719d" stroke-width="1"/></g>
+                </g>
+                <g transform="translate(-2 -20)" class="astronaut-leg-position astronaut-leg-back">
+                  <g class="astronaut-thigh">
+                    <path d="M0 0 0 10" stroke="var(--suit-outline)" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M0 0 0 10" stroke="var(--suit-fill)" stroke-width="5.5" stroke-linecap="round"/>
+                    <g transform="translate(0 10)">
+                      <g class="astronaut-shin">
+                        <path d="M0 0 0 9" stroke="var(--suit-outline)" stroke-width="7" stroke-linecap="round"/>
+                        <path d="M0 0 0 9" stroke="var(--suit-fill)" stroke-width="4.5" stroke-linecap="round"/>
+                        <circle r="2.5" fill="var(--suit-joint)"/>
+                        <g transform="translate(0 10)">
+                          <g class="astronaut-boot">
+                            <path d="M-3-4H2L4-2H8Q10-2 10 1H-3Z" fill="var(--suit-fill)" stroke="var(--suit-outline)" stroke-width="1.2" stroke-linejoin="round"/>
+                            <path d="M-2 1H9" stroke="var(--suit-outline)" stroke-width="1.8" stroke-linecap="round"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g class="astronaut-upper-body">
+                  <path d="M-8-43Q0-47 8-41L11-26Q11-20 5-19H-6Q-11-20-11-26Z" fill="#fcfbfe" stroke="#84719d" stroke-width="1.5"/>
+                  <path d="M-8-24Q0-21 9-24" fill="none" stroke="#b7a9ca" stroke-width="1.5"/>
+                  <rect x="3" y="-37" width="7" height="8" rx="2" fill="#e9e3f5" stroke="#b1a2cf" stroke-width=".8"/>
+                  <circle cx="6" cy="-33" r="1" fill="#7860b9"/>
+                </g>
+                <g transform="translate(1 -20)" class="astronaut-leg-position astronaut-leg-front">
+                  <g class="astronaut-thigh">
+                    <path d="M0 0 0 10" stroke="var(--suit-outline)" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M0 0 0 10" stroke="var(--suit-fill)" stroke-width="5.5" stroke-linecap="round"/>
+                    <g transform="translate(0 10)">
+                      <g class="astronaut-shin">
+                        <path d="M0 0 0 9" stroke="var(--suit-outline)" stroke-width="7" stroke-linecap="round"/>
+                        <path d="M0 0 0 9" stroke="var(--suit-fill)" stroke-width="4.5" stroke-linecap="round"/>
+                        <circle r="2.5" fill="var(--suit-joint)"/>
+                        <g transform="translate(0 10)">
+                          <g class="astronaut-boot">
+                            <path d="M-3-4H2L4-2H8Q10-2 10 1H-3Z" fill="var(--suit-fill)" stroke="var(--suit-outline)" stroke-width="1.2" stroke-linejoin="round"/>
+                            <path d="M-2 1H9" stroke="var(--suit-outline)" stroke-width="1.8" stroke-linecap="round"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g class="astronaut-upper-body">
+                  <g class="astronaut-arm-front"><path d="M-3-37q-1 10 7 17" fill="none" stroke="#84719d" stroke-width="6.5" stroke-linecap="round"/><path d="M-3-37q-1 10 7 17" fill="none" stroke="#fcfbfe" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="-19" r="3" fill="#fcfbfe" stroke="#84719d" stroke-width="1"/><g class="astronaut-tool"><path d="M4-20v14m-3-1h6" fill="none" stroke="#9a88b7" stroke-width="2.5" stroke-linecap="round"/></g><g class="astronaut-can"><path d="M2-21h10v10H2zM12-17l8-5M2-19q-7 0-4 6" fill="#c4b5e1" stroke="#8873aa" stroke-width="1.3"/><path class="water-drops" d="m21-21 3 6m-1-8 4 6m-2-8 4 5" stroke="#aa95db" fill="none" stroke-width="1"/></g><g class="astronaut-parcel"><rect x="0" y="-27" width="15" height="13" rx="2" fill="#ddd4ed" stroke="#9582b3" stroke-width="1.1"/><path d="M7-27v13" stroke="#baa9d1"/></g></g>
+                  <circle cx="1" cy="-59" r="18" fill="#fcfbfe" stroke="#84719d" stroke-width="1.5"/>
+                  <path d="M0-72Q15-74 17-61T3-47Q-4-49-4-59T0-72Z" fill="#8775c3"/>
+                  <path d="M3-68q6-2 10 3" fill="none" stroke="#e5def7" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="-10" cy="-58" r="4" fill="#e9e3f5" stroke="#b1a2cf" stroke-width="1"/>
+                  <path d="M-8-45q9 5 18-1" fill="none" stroke="#c4b6dc" stroke-width="1.5"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="space-dog" aria-hidden="true"></g>
+      </svg>
+      <div class="planet-preview" hidden>
+        <div class="preview-heading"><span>Planet preview</span><output class="planet-clock">00:00:00 · Beijing</output></div>
+        <p class="planet-chapter"></p>
+        <label for="planet-time">Time of day</label>
+        <input id="planet-time" type="range" min="0" max="86399" step="1" value="0">
+        <div class="planet-presets"><button type="button" data-time="0">Midnight</button><button type="button" data-time="28800">Building</button><button type="button" data-time="43200">Landing</button><button type="button" data-time="57600">Together</button><button type="button" data-time="79200">Bloom</button></div>
+        <div class="planet-playback"><button type="button" class="planet-tour">Watch a day · 60s</button><button type="button" class="planet-live">Use Beijing time</button></div>
+      </div>
+    </figure>
+  <div class="page footer-container">
+    <footer class="site-footer"><span>© Xiuyu Wu · Academic homepage</span><a href="#about">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>

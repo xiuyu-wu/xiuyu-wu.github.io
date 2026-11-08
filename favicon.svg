@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">XY — Xiuyu Wu</title>
+  <rect width="64" height="64" rx="14" fill="#4030c4"/>
+  <g fill="none" stroke-width="6" stroke-linecap="square" stroke-linejoin="round">
+    <path d="m13 19 16 26m0-26L13 45" stroke="#ffffff"/>
+    <path d="m36 19 8 13 8-13M44 32v13" stroke="#d6ceff"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+Tool: built-in image_gen (background-extraction), transparent_background=true.
+Input: selfie_q.png, supplied by Xiuyu Wu.
+Output: imgs/xiuyu-wu-avatar.png.
+
+Final prompt:
+Use case: background-extraction. Asset type: transparent PNG avatar for Xiuyu Wu's academic homepage. Edit target: the supplied hand-drawn portrait. Remove ONLY the white paper background surrounding the character, including white gaps outside the silhouette around the hair, fingers, and clothing, to genuine alpha transparency. Preserve the exact existing character identity, face, proportions, wink, smile, glasses, sunglasses on head, peace-sign hand, clothes, original colors and crayon/pencil texture. Preserve the skin and all white highlights that belong within the subject; do not make the whole person translucent. Preserve the two small blue decorative strokes beside the raised hand. Retain delicate semitransparent anti-aliased edges and wispy brush marks. Same square framing, full visible character, no cropping off hair or hand, no new shadows, glow, background, text, or added elements. Do not redraw or restyle the illustration. Output a true RGBA PNG cutout.
