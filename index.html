@@ -12,8 +12,8 @@
       if (localStorage.getItem('homepage-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
     } catch {}
   </script>
-  <link rel="stylesheet" href="./style.css?v=contact-links-1">
-  <script type="module" src="./script.js?v=toys-wechat-1"></script>
+  <link rel="stylesheet" href="./style.css?v=planet-init-1">
+  <script type="module" src="./script.js?v=planet-init-1"></script>
 </head>
 <body>
   <a class="skip-link" href="#about">Skip to main content</a>
@@ -81,7 +81,7 @@
     <!-- <p class="sample-notice">Academic homepage preview<span>Some sections below still contain sample content.</span></p> -->
     <section class="profile" id="about" aria-labelledby="name">
       <div class="profile-text">
-        <h1 id="name">Xiuyu Wu</h1>
+        <h1 id="name">Xiuyu Wu<span lang="zh-CN">吴修宇</span></h1>
         <p class="affiliation">Ph.D Student</p>
         <p class="institution">Nankai University</p>
         <div class="biography">
@@ -192,8 +192,7 @@
     <img src="./imgs/wechat.jpeg" alt="Xiuyu Wu’s WeChat QR code. Scan with WeChat to add me." width="888" height="1191" loading="lazy">
   </dialog>
     <figure class="alien-landscape" data-visible="false" aria-label="A day on a small alien planet, following Beijing time">
-      <svg class="planet-scene" viewBox="0 0 1000 300" role="img" aria-labelledby="planet-title planet-description">
-        <title id="planet-title">A little world, one day at a time</title>
+      <svg class="planet-scene" viewBox="0 0 1000 300" role="img" aria-label="A little world, one day at a time" aria-describedby="planet-description">
         <desc id="planet-description">A small astronaut with a round helmet walks across the curved surface of a pale violet planet, dotted with a few rocks and shallow craters.</desc>
         <defs>
           <clipPath id="planet-boundary"><ellipse cx="500" cy="1430" rx="1800" ry="1250"/></clipPath>

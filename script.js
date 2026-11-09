@@ -98,4 +98,4 @@ window.addEventListener('resize', updateNavigation);
 setSidebarCollapsed(mobileLayout.matches, false);
 
 // The landscape owns its clock, visibility and character choreography.
-import './planet-day.js?v=planet-day-4';
+import './planet-day.js?v=planet-day-5';

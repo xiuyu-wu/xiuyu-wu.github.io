@@ -205,7 +205,8 @@ html[data-theme="dark"] .celestial-ring { stroke: #645779; }
 .planet-scene { display: block; width: 100%; height: auto; }
 .footer-container { padding-top: 0; }
 .footer-container .site-footer { margin-top: 0; }
-.astronaut-walker { transform: translate(500px, 180px); }
+/* Reveal dynamic artwork only after its scale, position and pose are ready. */
+.alien-landscape:not([data-ready="true"]) :is(.daily-world, .astronaut-walker, .space-dog) { display: none; }
 .astronaut-leg-position { --gait-delay: 0s; --suit-fill: #fcfbfe; --suit-outline: #84719d; --suit-joint: #ddd4ec; }
 .astronaut-leg-back { --gait-delay: -.65s; --suit-fill: #c6b9d9; --suit-outline: #9989b0; --suit-joint: #afa0c4; }
 .astronaut-thigh, .astronaut-shin, .astronaut-boot { transform-origin: 0 0; animation: astronaut-stride 1.3s linear infinite; animation-delay: var(--gait-delay); }

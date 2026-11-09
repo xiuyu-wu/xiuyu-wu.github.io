@@ -147,6 +147,7 @@ function measure() {
   arrangePlants();
   lastWorldKey = '';
   paint(performance.now(), 0);
+  landscape.dataset.ready = 'true';
 }
 new ResizeObserver(measure).observe(scene);
 
